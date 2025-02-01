@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(19, 19, 19);
+
+    /* Font settings */
+    font-family: "Fredoka", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 100;
+    color: gray;
+
+    /* Fitment Settings */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header>a {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+header>a:hover {
+    color: rgb(100, 226, 100);
+}
+
+.wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
