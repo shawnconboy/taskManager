@@ -13,28 +13,29 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+
+    text-transform: lowercase;
 }
 
-header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-header>a {
+a {
     padding: 0px 10px;
     text-decoration: none;
-    color: gray;
+    color: rgb(58, 108, 247);
 }
 
-header>a:hover {
+a:hover {
     color: rgb(100, 226, 100);
 }
 
 .wrapper {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.links {
+    padding-bottom: 20px;
 }
 
 .container {
@@ -46,11 +47,13 @@ header>a:hover {
 
 input {
     border-radius: 20px;
-    padding: 5px;
+    padding: 5px 15px;
     background-color: inherit;
     border: 3px solid gray;
+    color: gray;
 }
 
 input:focus {
     outline: none;
+    border: 3px solid rgb(100, 226, 100);
 }
