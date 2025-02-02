@@ -43,3 +43,14 @@ header>a:hover {
     align-items: center;
     flex-direction: column;
 }
+
+input {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: inherit;
+    border: 3px solid gray;
+}
+
+input:focus {
+    outline: none;
+}
