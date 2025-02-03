@@ -17,6 +17,10 @@ body {
     text-transform: lowercase;
 }
 
+h1 {
+    font-weight: 400;
+}
+
 a {
     padding: 0px 10px;
     text-decoration: none;
